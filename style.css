@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "yo";
+  src: url("./SegoeUIVF.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #fcf4ec;
+  padding: 0.7rem 3rem;
+  font-family: yo;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .links {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  gap: 1.5rem;
+  font-weight: 600;
+  margin-left: 8rem;
+  font-family: Segoe UI;
+}
+header .links li {
+  list-style: none;
+}
+.right-serchbar {
+  width: 300px;
+  height: 50px;
+
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+section#hero {
+  width: 100%;
+  height: calc(100% - 30%);
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#left-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#star {
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  border: 1px solid #62902b;
+  background-color: #e8ebd5;
+  justify-content: center;
+}
+#s {
+  color: #2a5327;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#star i {
+  color: #62902b;
+  font-size: 1.5rem;
+}
+#left-content h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 650;
+  letter-spacing: -3px;
+}
+#left-content h1 span {
+  color: #275f21;
+}
+#left-content .p {
+  font-size: 1.2rem;
+  color: #8f8f8a;
+}
+#left-content #cart {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 1rem 0rem;
+}
+#left-content #cart .left {
+  width: 250px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+  gap: 1.8rem;
+}
+#left-content #cart .left .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #fdce6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#left-content #cart .left .icon i {
+  font-size: 2rem;
+  color: black;
+}
+#left-content #cart .left h3 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: -1px;
+}
+
+#left-content #cart .right {
+  width: 180px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #fffbf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  border: 1px solid gray;
+}
+
+#left-content #cart .right p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.min {
+  font-size: 3rem;
+}
+.m {
+  color: red;
+}
+.p {
+  color: #2b602e;
+}
+.boxes {
+  display: flex;
+  gap: 1.5rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.cir1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #205720;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #205720;
+}
+.cir2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e4c99c;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #205720;
+}
+.cir3 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #bf8988;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #db2b35;
+}
+.con p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.con small {
+  font-weight: 500;
+  color: gray;
+}
+
+#right-content {
+}
+
+#right-content .right-boxes {
+}
+.right-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.right-box {
+  display: flex;
+}
+.right-cir {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.right-con p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#footer {
+  height: 30%;
+  width: 100%;
+  background-color: #2b602e;
+  border-radius: 40px;
+}
+
+#hero-image {
+  position: absolute;
+  height: 70%;
+  width: 35%;
+  right: 20%;
+}
